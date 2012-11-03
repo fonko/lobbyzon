@@ -1,0 +1,5 @@
+img, div { behavior: url(iepngfix.htc) }
+* html #wrapper-questions,
+* html #footer-questions {
+	width: expression((documentElement.clientWidth||document.body.clientWidth)<1000?'1000px':'');
+}
